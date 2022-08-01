@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Maersk.ApplicationInsights", "Maersk.ApplicationInsights\Maersk.ApplicationInsights.sfproj", "{3298EE7D-4305-4870-B782-919CFEC6111D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{EE3462B9-B524-47C0-AF61-92E351B2ABE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Debug|Any CPU.Build.0 = Debug|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Debug|x64.ActiveCfg = Debug|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Debug|x64.Build.0 = Debug|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Debug|x64.Deploy.0 = Debug|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Release|Any CPU.ActiveCfg = Release|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Release|Any CPU.Build.0 = Release|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Release|Any CPU.Deploy.0 = Release|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Release|x64.ActiveCfg = Release|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Release|x64.Build.0 = Release|x64
+		{3298EE7D-4305-4870-B782-919CFEC6111D}.Release|x64.Deploy.0 = Release|x64
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE3462B9-B524-47C0-AF61-92E351B2ABE4}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DF5F08-7A2C-4714-A112-058832890E8B}
+	EndGlobalSection
+EndGlobal

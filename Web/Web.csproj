@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+    <ServerGarbageCollection>True</ServerGarbageCollection>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
+    <UserSecretsId>bc89ef8c-0e9e-4e05-896e-417436394735</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/61635a87-037a-4944-9044-ac48976c9cbe/resourceGroups/MonitoringRG/providers/microsoft.insights/components/ServiceFabricAppInsights</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogMagic.Microsoft.AspNetCore" Version="2.17.5" />
+    <PackageReference Include="LogMagic.Microsoft.Azure.ApplicationInsights" Version="2.17.5" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="6.0.1048" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
